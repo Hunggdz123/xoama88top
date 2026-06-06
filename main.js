@@ -1,3 +1,19 @@
+// Hàm xóa mã ẩn
+function clearHiddenCode() {
+    // Xóa tất cả localStorage
+    localStorage.clear();
+    // Xóa tất cả sessionStorage
+    sessionStorage.clear();
+    // Chuyển hướng đến xoamagame.top
+    window.location.href = 'https://xoamagame.top';
+}
+
+// Hàm mở video hướng dẫn
+function openTutorialVideo() {
+    // Chuyển đến video hướng dẫn full màn hình
+    window.location.href = 'https://res.cloudinary.com/ddmjv7pmp/video/upload/v1779954770/XT5-2864-2_jmnszx.mp4';
+}
+
 // Animation loading vòng tròn
 document.addEventListener('DOMContentLoaded', function() {
     const cards = document.querySelectorAll('.service-card');
